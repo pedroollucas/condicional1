@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+     <script type="text/javascript">
+      	/*5) Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso*/
+      	
+      	var Turno = prompt("Em que turno escolar voce estuda: M(manha), T(tarde), N(noite)");
+      	var Hora;
+
+      	if (Turno == "M"){
+      		Hora = "Bom Dia";
+      	}else if (Turno == "T"){
+      		Hora = "Boa Tarde";
+      	}else if (Turno == "N"){
+      		Hora = "Boa Noite";
+      	}else{
+      		Hora = "Valor Invalido";
+      	}
+
+      	alert(Hora)
+     </script>
+</body>
+</html>

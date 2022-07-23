@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+     <script type="text/javascript">
+	   /*8) Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
+       a) A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
+       b) A mensagem "Reprovado", se a média for menor do que sete;
+       c) A mensagem "Aprovado com Distinção", se a média for igual a dez.*/
+
+	    var n1 = 1*prompt("digite a Nota pracial 1");
+	    var n2 = 1*prompt("digite a Nota parcial 2");
+	    var media=(n1+n2)/2;
+        var resultado;
+
+        if(media==10){
+        	resultado='Aprovado com Distinção';
+        }else if (media>=7){
+        	resultado='Aprovado';
+        }else {
+        	resultado='Reprovado';
+        }
+
+        alert("Você foi: "+resultado)
+     </script>
+</body>
+</html>
